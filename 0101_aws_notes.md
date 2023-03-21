@@ -5,7 +5,7 @@
 |Compute|-----------|---------|
 #
 #
-# |       Topic      |  Name  |
+  |       Topic      |  Name  |
   |------------------|--------|
   |Security Lifecycle| Mustafa|
   |    Antivirus     |  Hakan |
