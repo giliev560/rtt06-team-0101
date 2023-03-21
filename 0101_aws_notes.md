@@ -1,11 +1,10 @@
-3/21 First Notes
-Hakan's first notes
-
+# 3/21 First Notes
+#Hakan's first notes
 |Category|Services|Description|
 |--------|----------|---------|
-|Compute |          |         |
-
-
+|Compute|-----------|---------|
+#
+#
   |       Topic      |  Name  |
   |------------------|--------|
   |Security Lifecycle| Mustafa|
@@ -13,3 +12,5 @@ Hakan's first notes
   |       IDS        |  Goce  |
   |    Guard Duty    |Santhiya|
 
+What is the defenition of AntiVirus ??
+Antivirus software, also known as anti-malware, is a computer program used to prevent, detect, and remove malware. Antivirus software was originally developed to detect and remove computer viruses, hence the name.
