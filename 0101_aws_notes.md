@@ -2,6 +2,8 @@
 
 # Santhiya Notes
 
+## Containers in AWS
+Container management tools can be broken down into three categories: registry, orchestration, and compute.
 ## Compute
 |Category             |Services                    |Description                                                   |
 |---------------------|----------------------------|--------------------------------------------------------------|
@@ -10,6 +12,21 @@
 ||EC2 AutoScaling|Automa¬tically add or remove compute capacity to meet changes in demand|
 ||LightSail|Designed to be the easiest way to launch & manage a virtual private server with AWS. An easy-t¬o-use cloud platform that offers everything need to build an application or website.|
 ||Batch|Enables developers, scientists, & engineers to easily & effici¬ently run hundreds of thousands of batch computing jobs on AWS. Fully managed batch processing at any scale.|
+||AWS Fargate|AWS Fargate is a serverless compute engine for containers. Fargate makes it easy for you to focus on building your applications.|
+
+## Resgitry
+|Category             |Services                    |Description                                                   |
+|---------------------|----------------------------|--------------------------------------------------------------|
+|Container|Elastic Container Registry|Amazon Elastic Container Registry (Amazon ECR) is an AWS managed container image registry service that is secure, scalable, and reliable. Amazon ECR supports private repositories with resource-based permissions using AWS IAM. This is so that specified users or Amazon EC2 instances can access your container repositories and images. |
+# Pricing for ECR
+With Amazon ECR, you only pay for the amount of data you store in your repositories and for the data transfer from your image pushes and pulls. 
+
+## Orchestration
+|Category             |Services                    |Description                                                   |
+|---------------------|----------------------------|--------------------------------------------------------------|
+|Containers|Awazon Elastic Container Service | Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that provides the most secure, reliable and scalable way to run containerized applications.|
+||Amazon kubernet Service|Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS and on-premises. Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.|
+
 
 ## Instance Pricing Model
 |Instance type|pricing|
