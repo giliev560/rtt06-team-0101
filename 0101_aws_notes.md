@@ -1,10 +1,15 @@
-# 3/21 First Notes
-#Hakan's first notes
-|Category|Services|Description|
-|--------|----------|---------|
-|Compute|-----------|---------|
-#
-#
+###AWS Services 
+
+#Santhiya Notes
+
+##Compute
+|Category             |Services                    |Description                                                   |
+|---------------------|----------------------------|--------------------------------------------------------------|
+|Instances(Virtul Machine)|Elastic cloud compute(EC2)   |  Provides secure, resizable compute capacity in the cloud. It makes web-scale cloud computing easier for develo¬pers. |
+
+
+#Hakans Notes
+
   |       Topic      |  Name  |
   |------------------|--------|
   |Security Lifecycle| Mustafa|
