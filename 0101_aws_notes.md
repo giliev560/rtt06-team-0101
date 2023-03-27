@@ -1,3 +1,5 @@
+
+
 # AWS Services 
 
 ### Santhiya Notes
@@ -35,6 +37,29 @@ With Amazon ECR, you only pay for the amount of data you store in your repositor
 |---------------------|----------------------------|--------------------------------------------------------------|
 |Containers|Awazon Elastic Container Service | Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that provides the most secure, reliable and scalable way to run containerized applications.|
 ||Amazon kubernet Service|Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS and on-premises. Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.|
+
+
+3/27/2023
+
+### Support plan
+
+## Basic Support
+
+The Basic Support plan is already available to all AWS customers by default and is free of charge. It also offers support for account and billing questions including requests for service limit increases.
+
+Customer Service & Communities – You have 24×7 access to customer service, AWS documentation, whitepapers, and support forums.
+AWS Trusted Advisor – This provides guidance on how to properly provision your AWS resources based on the best practices to further increase performance and improve the overall security of your cloud architecture. You are only provided access to the 7 core Trusted Advisor checks.
+AWS Personal Health Dashboard – This is a personalized view of the health status of each AWS service that you currently have. It also provides an alert when your resources are impacted by an AWS-initiated activity.
+
+||Developer|Business|Enterprise|
+|-----|---------|--------|----------|
+|uses case|Recommended if you are experimenting or testing in AWS|Recommended if you have production workloads in AWS|Recommended if you have business and/or mission critical workloads in AWS|
+|AWS Trusted Advisor Best Practice Checks|Service quota and security checks|Full set of checks|
+|Architectural Guidance|General|Contextual to your use-cases|Consultative review and guidance based on your applications|
+|Technical Account Management |X|X|Designated Technical Account Manager (TAM) to proactively monitor your environment and assist with optimization.|
+|Training |X|X|Access to online self-paced labs|
+|Account Assistance |X|X|Concierge Support Team|
+|Enhanced Technical Suppor|Business hours’ ‘ email access to Cloud Support Associates,Unlimited cases / 1 primary contact Prioritized responses on AWS re:Post|
 
 
 
