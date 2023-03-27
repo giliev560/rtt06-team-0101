@@ -59,8 +59,7 @@ AWS Personal Health Dashboard – This is a personalized view of the health stat
 |Technical Account Management |X|X|Designated Technical Account Manager (TAM) to proactively monitor your environment and assist with optimization.|
 |Training |X|X|Access to online self-paced labs|
 |Account Assistance |X|X|Concierge Support Team|
-|Enhanced Technical Suppor|Business hours’ ‘ email access to Cloud Support Associates,Unlimited cases / 1 primary contact Prioritized responses on AWS re:Post|24×7 phone, email, and chat access to Cloud Support Engineers
-Unlimited cases / unlimited contacts (IAM supported) Prioritized responses on AWS re:Post|
+|Enhanced Technical Suppor|Business hours’ ‘ email access to Cloud Support Associates,Unlimited cases / 1 primary contact Prioritized responses on AWS re:Post|24×7 phone, email, and chat access to Cloud Support Engineers Unlimited cases / unlimited contacts (IAM supported) Prioritized responses on AWS re:Post|
 
 
 
