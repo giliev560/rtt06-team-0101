@@ -61,6 +61,24 @@ AWS Personal Health Dashboard – This is a personalized view of the health stat
 |Account Assistance |X|X|Concierge Support Team|
 |Enhanced Technical Suppor|Business hours’ ‘ email access to Cloud Support Associates,Unlimited cases / 1 primary contact Prioritized responses on AWS re:Post|24×7 phone, email, and chat access to Cloud Support Engineers Unlimited cases / unlimited contacts (IAM supported) Prioritized responses on AWS re:Post|
 
+### Load balancer
+
+## Application Load BalancerInfo
+Application Load Balancer 
+![image](file:///C:/Users/User/Documents/workspaces/local/gitlab/docs/images/ALBdiagram.svg)
+Choose an Application Load Balancer when you need a flexible feature set for your applications with HTTP and HTTPS traffic. Operating at the request level, Application Load Balancers provide advanced routing and visibility features targeted at application architectures, including microservices and containers.
+
+## Network Load BalancerInfo
+Network Load Balancer 
+![image](file:///C:/Users/User/Documents/workspaces/local/gitlab/docs/images/GWLBdiagram.svg)
+Choose a Network Load Balancer when you need ultra-high performance, TLS offloading at scale, centralized certificate deployment, support for UDP, and static IP addresses for your applications. Operating at the connection level, Network Load Balancers are capable of handling millions of requests per second securely while maintaining ultra-low latencies.
+
+## Gateway Load Balancer
+Gateway Load Balancer 
+![image](file:///C:/Users/User/Documents/workspaces/local/gitlab/docs/images/NLBdiagram.svg)
+Choose a Gateway Load Balancer when you need to deploy and manage a fleet of third-party virtual appliances that support GENEVE. These appliances enable you to improve security, compliance, and policy controls.
+
+Create
 
 
 
