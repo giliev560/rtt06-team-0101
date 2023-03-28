@@ -16,6 +16,21 @@ Container management tools can be broken down into three categories: registry, o
 ||Batch|Enables developers, scientists, & engineers to easily & effici¬ently run hundreds of thousands of batch computing jobs on AWS. Fully managed batch processing at any scale.|
 ||AWS Fargate|AWS Fargate is a serverless compute engine for containers. Fargate makes it easy for you to focus on building your applications.|
 
+
+#   Storage
+|  Service  |     Description                                           |
+|-----------|-----------------------------------------------------------|
+| AWS S3    |S3 is the storehouse for the internet i.e. object storage built to>
+|AWS Backup |AWS Backup is an externally-accessible backup provider that makes >
+|Amazon EBS |Amazon Elastic Block Store is a web service that provides block-le>
+|Amazon EFS Storage |EFS offers file storage for the user’s Amazon EC2 instance>
+|Amazon FSx | FSx supply fully managed 3rd-party file systems with the native c>
+|AWS Storage Gateway |Storage Gateway is a service which connects an on-premise>
+|AWS Data Sync |DataSync makes it simple & fast to move large amounts of data o>
+|AWS Transfer Family |The Transfer Family provides fully managed support for fi>
+|AWS Snow Family |Highly-secure, portable devices to collect & process data at >
+
+
 ## Instance Pricing Model
 |Instance type|pricing|
 |-------------|-------|
