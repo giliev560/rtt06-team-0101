@@ -30,6 +30,19 @@ Container management tools can be broken down into three categories: registry, o
 |AWS Snow Family |Highly-secure, portable devices to collect & process data at the edge, and migrate data into and out of AWS. https://aws.amazon.com/snow/?c=s&amp;sec=srv               |
 
 
+# Databases
+| Database type  | Use cases       | Service       | Description                                |
+|----------------|-----------------|---------------|--------------------------------------------|
+| Relational | Traditional applications, ERP, CRM, e-commerce | Aurora, RDS, Redshift | RDS is a web service that makes it easier to set up, control, and scale a relational database in the cloud. https://aws.amazon.com/rds/aurora/?c=db&amp;sec=srv https://aws.amazon.com/rds/?c=db&amp;sec=srv https://aws.amazon.com/redshift/?c=db&amp;sec=srv |
+| Key-value | High-traffic web apps, e-commerce systems, gaming applications | DynamoDB | DynamoDB is a fully administered NoSQL database service that offers quick and reliable performance with integrated scalability. https://aws.amazon.com/dynamodb/?c=db&amp;sec=srv |
+| In-memory | Caching, session management, gaming leaderboards, geospatial applications | ElastiCache for Memcached & Redis | ElastiCache helps in setting up, managing, and scaling in-memory cache conditions. https://aws.amazon.com/elasticache/memcached/?c=db&amp;sec=srv https://aws.amazon.com/elasticache/redis/?c=db&amp;sec=srv |
+| Document | Content management, catalogs, user profiles | DocumentDB | DocumentDB (with MongoDB compatibility) is a quick, dependable, and fully-managed database service that makes it easy for you to set up, operate, and scale MongoDB-compatible databases. https://aws.amazon.com/documentdb/?c=db&amp;sec=srv |
+| Wide column | High scale industrial apps for equipment maintenance, fleet management, and route optimization | Keyspaces (for Apache Cassandra) | Keyspaces is a scalable, highly available, and managed Apache Cassandra–compatible database service. https://aws.amazon.com/keyspaces/?c=db&amp;sec=srv |
+| Graph | Fraud detection, social networking, recommendation engines | Neptune | Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. https://aws.amazon.com/neptune/?c=db&amp;sec=srv |
+| Time series | IoT applications, DevOps, industrial telemetry | Timestream | Timestream is a fast, scalable, and serverless time series database service for IoT and operational applications that makes it easy to store and analyze trillions of events per day. https://aws.amazon.com/timestream/?c=db&amp;sec=srv |
+| Ledger | Systems of record, supply chain, registrations, banking transactions | Quantum Ledger Database (QLDB) | QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log owned by a central trusted authority. https://aws.amazon.com/qldb/?c=db&amp;sec=srv |
+
+
 
 ## Instance Pricing Model
 |Instance type|pricing|
