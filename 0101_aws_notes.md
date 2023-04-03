@@ -1,7 +1,6 @@
 
 
 # AWS Services 
-
 ### Santhiya Notes
 
 ## Containers in AWS
@@ -15,6 +14,35 @@ Container management tools can be broken down into three categories: registry, o
 ||LightSail|Designed to be the easiest way to launch & manage a virtual private server with AWS. An easy-t¬o-use cloud platform that offers everything need to build an application or website.|
 ||Batch|Enables developers, scientists, & engineers to easily & effici¬ently run hundreds of thousands of batch computing jobs on AWS. Fully managed batch processing at any scale.|
 ||AWS Fargate|AWS Fargate is a serverless compute engine for containers. Fargate makes it easy for you to focus on building your applications.|
+
+
+#   Storage
+|  Service  |     Description                                           |
+|-----------|-----------------------------------------------------------|
+| AWS S3    |S3 is the storehouse for the internet i.e. object storage built to store & retrieve any amount of data from anywhere. https://aws.amazon.com/s3/?c=s&amp;sec=srv |
+|AWS Backup |AWS Backup is an externally-accessible backup provider that makes it easier to align & optimize the backup of data across AWS services in the cloud. https://aws.amazon.com/backup/?c=s&amp;sec=srv             |
+|Amazon EBS |Amazon Elastic Block Store is a web service that provides block-level storage volumes.                             https://aws.amazon.com/ebs/?c=s&amp;sec=srv                |
+|Amazon EFS Storage |EFS offers file storage for the user’s Amazon EC2 instances. It's kind of blob storage. https://aws.amazon.com/efs/?c=s&amp;sec=srv                |
+|Amazon FSx | FSx supply fully managed 3rd-party file systems with the native compatibility & characteristic sets for workloads. It's available as FSx for Windows server (Fully managed file storage built on Windows Server) & Lustre (Fully managed high-performance Server) & Lustre (Fully managed high-performance file system integrated with S3).                       https://aws.amazon.com/fsx/windows/?c=s&amp;sec=srv        https://aws.amazon.com/fsx/lustre/?c=s&amp;sec=srv         |
+|AWS Storage Gateway |Storage Gateway is a service which connects an on-premises software appliance with cloud-based storage.              https://aws.amazon.com/storagegateway/?c=s&amp;sec=srv     |
+|AWS Data Sync |DataSync makes it simple & fast to move large amounts of data online between on-premises storage & S3, EFS, or FSx for Windows File Server.  https://aws.amazon.com/datasync/?c=s&amp;sec=srv           |
+|AWS Transfer Family |The Transfer Family provides fully managed support for file transfers directly into & out of S3.                       https://aws.amazon.com/aws-transfer-family/?c=s&amp;sec=srv|
+|AWS Snow Family |Highly-secure, portable devices to collect & process data at the edge, and migrate data into and out of AWS. https://aws.amazon.com/snow/?c=s&amp;sec=srv               |
+
+
+# Databases
+| Database type  | Use cases       | Service       | Description                                |
+|----------------|-----------------|---------------|--------------------------------------------|
+| Relational | Traditional applications, ERP, CRM, e-commerce | Aurora, RDS, Redshift | RDS is a web service that makes it easier to set up, control, and scale a relational database in the cloud. https://aws.amazon.com/rds/aurora/?c=db&amp;sec=srv https://aws.amazon.com/rds/?c=db&amp;sec=srv https://aws.amazon.com/redshift/?c=db&amp;sec=srv |
+| Key-value | High-traffic web apps, e-commerce systems, gaming applications | DynamoDB | DynamoDB is a fully administered NoSQL database service that offers quick and reliable performance with integrated scalability. https://aws.amazon.com/dynamodb/?c=db&amp;sec=srv |
+| In-memory | Caching, session management, gaming leaderboards, geospatial applications | ElastiCache for Memcached & Redis | ElastiCache helps in setting up, managing, and scaling in-memory cache conditions. https://aws.amazon.com/elasticache/memcached/?c=db&amp;sec=srv https://aws.amazon.com/elasticache/redis/?c=db&amp;sec=srv |
+| Document | Content management, catalogs, user profiles | DocumentDB | DocumentDB (with MongoDB compatibility) is a quick, dependable, and fully-managed database service that makes it easy for you to set up, operate, and scale MongoDB-compatible databases. https://aws.amazon.com/documentdb/?c=db&amp;sec=srv |
+| Wide column | High scale industrial apps for equipment maintenance, fleet management, and route optimization | Keyspaces (for Apache Cassandra) | Keyspaces is a scalable, highly available, and managed Apache Cassandra–compatible database service. https://aws.amazon.com/keyspaces/?c=db&amp;sec=srv |
+| Graph | Fraud detection, social networking, recommendation engines | Neptune | Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets. https://aws.amazon.com/neptune/?c=db&amp;sec=srv |
+| Time series | IoT applications, DevOps, industrial telemetry | Timestream | Timestream is a fast, scalable, and serverless time series database service for IoT and operational applications that makes it easy to store and analyze trillions of events per day. https://aws.amazon.com/timestream/?c=db&amp;sec=srv |
+| Ledger | Systems of record, supply chain, registrations, banking transactions | Quantum Ledger Database (QLDB) | QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log owned by a central trusted authority. https://aws.amazon.com/qldb/?c=db&amp;sec=srv |
+
+
 
 ## Instance Pricing Model
 |Instance type|pricing|
