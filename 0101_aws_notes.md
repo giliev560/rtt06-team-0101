@@ -44,6 +44,53 @@ Container management tools can be broken down into three categories: registry, o
 
 
 
+# Developer Tools
+| Service        | Description                                                    |
+|----------------|----------------------------------------------------------------|
+| Cloud9 | Cloud9 is a cloud-based IDE that enables the user to write, run, and debug code. https://aws.amazon.com/cloud9/?c=dv&amp;sec=srv |
+| CodeArtifact | CodeArtifact is a fully managed artifact repository service that makes it easy for organizations of any size to securely store, publish, & share software packages used in their software development process. https://aws.amazon.com/codeartifact/?c=dv&amp;sec=srv |
+| CodeBuild | CodeBuild is a fully managed service that assembles source code, runs unit tests, & also generates artefacts ready to deploy. https://aws.amazon.com/codebuild/?c=dv&amp;sec=srv |
+| CodeGuru | CodeGuru is a developer tool powered by machine learning that provides intelligent recommendations for improving code quality & identifying an application’s most expensive lines of code. https://aws.amazon.com/codeguru/?c=dv&amp;sec=srv |
+| Cloud Development Kit | Cloud Development Kit (AWS CDK) is an open source software development framework to define cloud application resources using familiar programming languages. https://aws.amazon.com/cdk/?c=dv&amp;sec=srv |
+| CodeCommit | CodeCommit is a version control service that enables the user to personally store & manage Git archives in the AWS cloud. https://aws.amazon.com/codecommit/?c=dv&amp;sec=srv |
+| CodeDeploy | CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as EC2, Fargate, Lambda, & on-premises servers. https://aws.amazon.com/codedeploy/?c=dv&amp;sec=srv |
+| CodePipeline | CodePipeline is a fully managed continuous delivery service that helps automate release pipelines for fast & reliable app & infra updates. https://aws.amazon.com/codepipeline/?c=dv&amp;sec=srv |
+| CodeStar | CodeStar enables to quickly develop, build, & deploy applications on AWS. https://aws.amazon.com/codestar/?c=dv&amp;sec=srv |
+| CLI | AWS CLI is a unified tool to manage AWS services & control multiple services from the command line & automate them through scripts. https://aws.amazon.com/cli/?c=dv&amp;sec=srv |
+ X-Ray | X-Ray helps developers analyze & debug production, distributed applications, such as those built using a microservices architecture. https://aws.amazon.com/xray/?c=dv&amp;sec=srv |
+
+
+# Migration & Transfer services
+| Service      | Description                                     |
+|--------------|-------------------------------------------------|
+| Migration Evaluator | Build a data-driven business case for AWS. https://aws.amazon.com/migration-evaluator/?c=mt&amp;sec=srv |
+| Migration Hub | Migration Hub provides a single location to track the progress of app migrations across multiple AWS & partner solutions. https://aws.amazon.com/migration-hub/?c=mt&amp;sec=srv |
+| Application Discovery Service | Application Discovery Service helps enterprise customers plan migration projects by gathering information about their on-premises data centers. https://aws.amazon.com/application-discovery/?c=mt&amp;sec=srv |
+| Server Migration Service (SMS) | SMS is an agentless service which makes it easier & faster to migrate thousands of on-premises workloads to AWS. https://aws.amazon.com/server-migration-service/?c=mt&amp;sec=srv |
+| Database Migration Service (DMS) | DMS helps migrate databases to AWS quickly & securely. https://aws.amazon.com/dms/?c=mt&amp;sec=srv |
+| CloudEndure Migration | CloudEndure Migration simplifies, expedites, & reduces the cost of cloud migration by offering a highly automated lift-&-shift solution. https://aws.amazon.com/cloudendure-migration/?c=mt&amp;sec=srv |
+| VMware Cloud on AWS | Refer compute section. |
+| DataSync | Refer storage section. |
+| Transfer Family | Refer storage section. |
+| Snow Family | Refer storage section.
+
+
+# Cost Management
+| Use cases  | Capabilities   | Service        | Description                       |
+|------------|----------------|----------------|-----------------------------------|
+| Organize | Construct cost allocation & governance foundation with your own tagging strategy | 1) Cost Allocation Tags 2) Cost Categories | Cost Categories  is a feature within AWS Cost Management product suite that enables group cost & usage information into meaningful categories based on needs. https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html |
+| Report | Raise awareness & accountability of your cloud spend with the detailed, allocable cost data | 1) Cost Explorer 2) Cost & Usage Report | Cost & Usage Report contains the most comprehensive set of AWS cost & usage data available, including additional metadata about AWS services, pricing, & reservations. https://aws.amazon.com/aws-cost-management/aws-cost-explorer/?track=costma https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/?track=costma |
+| Access | Track billing information across the organization in a consolidated view | 1) Consolidated Billing 2) Credits | Credits are applied to bills to help cover costs that are associated with eligible services. https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html |
+| Control | Establish effective governance mechanisms with the right guardrails in place | 1) IAM 2) Organizations 3) Control Tower 4) Service Catalog | Organizations helps centrally govern environment as you grow & scale workloads on AWS. Control tower is the easiest way to set up & govern a new, secure multi-account AWS environment. https://aws.amazon.com/controltower/?track=costma |
+| Forecast | Estimate resource utilization & spend with forecast dashboards. | 1) Cost Explorer (Self-Service) 2) Budgets (Event-Driven) | A forecast is a prediction of how much you will use AWS services over the forecast time period that you selected, based on your past usage. https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-forecast.html#reading-forecasts https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-view.html |
+| Budget | Keep spend in check with custom budget threshold & auto alert notification | 1) Budgets 2) Budget Alerts via Chime & Slack 3) Service Catalog | Budgets allows to set custom budgets to track cost & usage from the simplest to the most complex use cases. https://aws.amazon.com/aws-cost-management/aws-budgets/?track=costma https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/sns-alert-chime.html https://docs.aws.amazon.com/servicecatalog/latest/adminguide/catalogs_budgets.html |
+| Purchase | Leverage free trials & programmatic discounts based on workload pattern & needs | 1) Free Tier 2) Reserved Instances 3) Savings Plans 4) Spot Instances 5) DynamoDB On-demand | RI provide a significant discount (up to 75%) compared to On-Demand pricing. https://aws.amazon.com/aws-cost-management/aws-cost-optimization/reserved-instances/?track=costma https://aws.amazon.com/free/?track=costma&amp;all-free-tier.sort-by=item.additionalFields.SortRank&amp;all-free-tier.sort-order=asc  https://aws.amazon.com/savingsplans/?track=costma https://aws.amazon.com/ec2/spot/?track=costma&amp;cards.sort-by=item.additionalFields.startDateTime&amp;cards.sort-order=asc https://aws.amazon.com/dynamodb/pricing/?track=costma |
+| Elasticity | Scale & schedule services based on expected utilization pattern & needs | 1) Instance Scheduler 2) Redshift pause & resume 3) EC2 Auto Scaling 4) Trusted Advisor | Trusted Advisor is an online tool that provides real time guidance to help provision resources following AWS best practices. https://aws.amazon.com/solutions/implementations/instance-scheduler/ https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-operations.html https://aws.amazon.com/ec2/autoscaling/?track=costma https://aws.amazon.com/premiumsupport/technology/trusted-advisor/?track=costma |
+| Rightsize | Align service allocation size to actual workload demand | 1) Cost Explorer Right Sizing Recommendations 2) Compute Optimizer 3) Redshift resize 4) S3 Intelligent Tiering | Compute Optimizer recommends optimal AWS Compute resources for your workloads to reduce costs & improve performance by using ML to analyze historical utilization metrics. https://aws.amazon.com/compute-optimizer/?track=costma |
+| Inspect | Stay up-to-date with resource deployment & cost optimization opportunities | Cost Explorer | Cost Explorer has an easy-to-use interface that lets you visualize, understand, & manage AWS costs & usage over time. https://aws.amazon.com/aws-cost-management/aws-cost-explorer/?track=costma2 |
+
+
+
 ## Instance Pricing Model
 |Instance type|pricing|
 |-------------|-------|
@@ -53,7 +100,7 @@ Container management tools can be broken down into three categories: registry, o
 |Spot instance|Up to 90% off the On-Demand price.- For applications that have flexible start and end times.- For applications that are stateless or fault-tolerant.|
 
 
-## Resgitry
+## Registry
 |Category             |Services                    |Description                                                   |
 |---------------------|----------------------------|--------------------------------------------------------------|
 |Container|Elastic Container Registry|Amazon Elastic Container Registry (Amazon ECR) is an AWS managed container image registry service that is secure, scalable, and reliable. Amazon ECR supports private repositories with resource-based permissions using AWS IAM. This is so that specified users or Amazon EC2 instances can access your container repositories and images. |
