@@ -75,6 +75,20 @@ Container management tools can be broken down into three categories: registry, o
 | Snow Family | Refer storage section.
 
 
+# Cost Management
+| Use cases  | Capabilities   | Service        | Description                       |
+|------------|----------------|----------------|-----------------------------------|
+| Organize | Construct cost allocation & governance foundation with your own tagging strategy | 1) Cost Allocation Tags 2) Cost Categories | Cost Categories  is a feature within AWS Cost Management product suite that enables group cost & usage information into meaningful categories based on needs. https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html |
+| Report | Raise awareness & accountability of your cloud spend with the detailed, allocable cost data | 1) Cost Explorer 2) Cost & Usage Report | Cost & Usage Report contains the most comprehensive set of AWS cost & usage data available, including additional metadata about AWS services, pricing, & reservations. https://aws.amazon.com/aws-cost-management/aws-cost-explorer/?track=costma https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/?track=costma |
+| Access | Track billing information across the organization in a consolidated view | 1) Consolidated Billing 2) Credits | Credits are applied to bills to help cover costs that are associated with eligible services. https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html |
+| Control | Establish effective governance mechanisms with the right guardrails in place | 1) IAM 2) Organizations 3) Control Tower 4) Service Catalog | Organizations helps centrally govern environment as you grow & scale workloads on AWS. Control tower is the easiest way to set up & govern a new, secure multi-account AWS environment. https://aws.amazon.com/controltower/?track=costma |
+| Forecast | Estimate resource utilization & spend with forecast dashboards. | 1) Cost Explorer (Self-Service) 2) Budgets (Event-Driven) | A forecast is a prediction of how much you will use AWS services over the forecast time period that you selected, based on your past usage. https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-forecast.html#reading-forecasts https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-view.html |
+| Budget | Keep spend in check with custom budget threshold & auto alert notification | 1) Budgets 2) Budget Alerts via Chime & Slack 3) Service Catalog | Budgets allows to set custom budgets to track cost & usage from the simplest to the most complex use cases. https://aws.amazon.com/aws-cost-management/aws-budgets/?track=costma https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/sns-alert-chime.html https://docs.aws.amazon.com/servicecatalog/latest/adminguide/catalogs_budgets.html |
+| Purchase | Leverage free trials & programmatic discounts based on workload pattern & needs | 1) Free Tier 2) Reserved Instances 3) Savings Plans 4) Spot Instances 5) DynamoDB On-demand | RI provide a significant discount (up to 75%) compared to On-Demand pricing. https://aws.amazon.com/aws-cost-management/aws-cost-optimization/reserved-instances/?track=costma https://aws.amazon.com/free/?track=costma&amp;all-free-tier.sort-by=item.additionalFields.SortRank&amp;all-free-tier.sort-order=asc  https://aws.amazon.com/savingsplans/?track=costma https://aws.amazon.com/ec2/spot/?track=costma&amp;cards.sort-by=item.additionalFields.startDateTime&amp;cards.sort-order=asc https://aws.amazon.com/dynamodb/pricing/?track=costma |
+| Elasticity | Scale & schedule services based on expected utilization pattern & needs | 1) Instance Scheduler 2) Redshift pause & resume 3) EC2 Auto Scaling 4) Trusted Advisor | Trusted Advisor is an online tool that provides real time guidance to help provision resources following AWS best practices. https://aws.amazon.com/solutions/implementations/instance-scheduler/ https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-operations.html https://aws.amazon.com/ec2/autoscaling/?track=costma https://aws.amazon.com/premiumsupport/technology/trusted-advisor/?track=costma |
+| Rightsize | Align service allocation size to actual workload demand | 1) Cost Explorer Right Sizing Recommendations 2) Compute Optimizer 3) Redshift resize 4) S3 Intelligent Tiering | Compute Optimizer recommends optimal AWS Compute resources for your workloads to reduce costs & improve performance by using ML to analyze historical utilization metrics. https://aws.amazon.com/compute-optimizer/?track=costma |
+| Inspect | Stay up-to-date with resource deployment & cost optimization opportunities | Cost Explorer | Cost Explorer has an easy-to-use interface that lets you visualize, understand, & manage AWS costs & usage over time. https://aws.amazon.com/aws-cost-management/aws-cost-explorer/?track=costma2 |
+
 
 
 ## Instance Pricing Model
@@ -86,7 +100,7 @@ Container management tools can be broken down into three categories: registry, o
 |Spot instance|Up to 90% off the On-Demand price.- For applications that have flexible start and end times.- For applications that are stateless or fault-tolerant.|
 
 
-## Resgitry
+## Registry
 |Category             |Services                    |Description                                                   |
 |---------------------|----------------------------|--------------------------------------------------------------|
 |Container|Elastic Container Registry|Amazon Elastic Container Registry (Amazon ECR) is an AWS managed container image registry service that is secure, scalable, and reliable. Amazon ECR supports private repositories with resource-based permissions using AWS IAM. This is so that specified users or Amazon EC2 instances can access your container repositories and images. |
